@@ -5,6 +5,13 @@
   "authors": ["chris-cooling"],
   "tags": ["programming", "pseudocode"],
   "duration": 4,
-  "prerequisites": ["programming-arithmetic-operators", "programming-division", "programming-expressions"],
-  "related": ["programming-operator-precedence-comparison-boolean"]
+  "prerequisites": [
+    "programming-arithmetic-operators",
+    "programming-division",
+    "programming-expressions"
+  ],
+  "related": [
+    "programming-operator-precedence-comparison-boolean",
+    "programming-modulo"
+  ]
 }
