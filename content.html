@@ -1,0 +1,37 @@
+<p>When an expression contains more than one arithmetic operator, the operators are evaluated in a specific order called <strong>operator precedence</strong>. This order is almost universal across programming languages and matches standard mathematical conventions:</p>
+
+<ol>
+  <li>Exponentiation</li>
+  <li>Multiplication and division (and related operators like modulo)</li>
+  <li>Addition and subtraction</li>
+</ol>
+
+<p>For example, in the expression <code>2 + 3 * 4</code>, multiplication is performed before addition, so the result is <code>14</code> (not <code>20</code>).</p>
+
+<h2>Parentheses</h2>
+
+<p>Parentheses <code>( )</code> can be used to override the default precedence and make the order of operations explicit. When multiple pairs of parentheses are nested, operations within the innermost parentheses are evaluated first.</p>
+
+<pre><code>
+2 + 3 * 4     → 14
+(2 + 3) * 4   → 20
+2 ** 3 * 2    → 16
+2 ** (3 * 2)  → 64
+</code></pre>
+
+<h2>Associativity: Order for Same-Tier Operators</h2>
+
+<p>When an expression contains multiple operators of the same precedence (for example, several additions or multiplications in a row), the order in which they are evaluated is called <strong>associativity</strong>:</p>
+
+<ul>
+  <li><strong>Left-to-right (left-associative):</strong> Most arithmetic operators (such as addition, subtraction, multiplication, division) are evaluated from left to right.</li>
+  <li><strong>Right-to-left (right-associative):</strong> Exponentiation is usually evaluated from right to left.</li>
+</ul>
+
+<p>For example:</p>
+<pre><code>
+10 - 3 - 2   →  (10 - 3) - 2   → 5
+2 ** 3 ** 2  →  2 ** (3 ** 2)  → 512
+</code></pre>
+
+

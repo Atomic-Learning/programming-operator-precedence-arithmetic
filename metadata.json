@@ -1,0 +1,10 @@
+{
+  "title": "Programming: Arithmetic Operator Precedence",
+  "slug": "programming-operator-precedence-arithmetic",
+  "description": "Explains the order in which arithmetic operations are evaluated in programming expressions.",
+  "authors": ["chris-cooling"],
+  "tags": ["programming", "pseudocode"],
+  "duration": 4,
+  "prerequisites": ["programming-arithmetic-operators", "programming-division", "programming-expressions"],
+  "related": ["programming-operator-precedence-comparison-boolean"]
+}
